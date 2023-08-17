@@ -12,7 +12,7 @@ const Projects = () => {
 };
 
 const handleImageClick2 = () => {
-  window.open('', '_blank'); 
+  window.open('https://portfolio-website-reactjs-gold.vercel.app/', '_blank'); 
 };
 
 const handleImageClick3 = () => {
