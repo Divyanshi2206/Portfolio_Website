@@ -1,0 +1,42 @@
+.skills{
+    &__content-wrapper{
+         padding: 20px;
+    }
+}
+
+.progressbar-wrapper{
+    display: flex;
+    position: relative;
+    height: 100%;
+    p{
+        color: var(--yellow-theme-sub-text-color);
+        font-size: 2.5rem;
+        margin-top: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+
+    }
+    .line{
+        position: absolute;
+       margin-left: 200px;
+        margin-top: 20px;
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width:800px){
+   .progressbar-wrapper{
+    .line{
+        margin-top: 110px;
+        margin-left: 15%;
+        padding-left: 0px;
+    }
+    p{
+        margin-top: 70px;
+        margin-left: 45%;
+    }
+   } 
+}
+
+
+
