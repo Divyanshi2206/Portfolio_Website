@@ -1,6 +1,10 @@
 .skills{
     &__content-wrapper{
+       
          padding: 20px;
+        
+        
+         
     }
 }
 
@@ -20,14 +24,17 @@
         position: absolute;
        margin-left: 200px;
         margin-top: 20px;
+     
         width: 75%;
+    
+       
     }
 }
 
 @media only screen and (max-width:800px){
    .progressbar-wrapper{
     .line{
-        margin-top: 110px;
+        margin-top: 90px;
         margin-left: 15%;
         padding-left: 0px;
     }

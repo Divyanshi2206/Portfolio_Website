@@ -54,6 +54,7 @@ const Navbar = () => {
             <div className='nav--icon' onClick={HandleToggleIcon}>
                 {
                     toggleIcon ? <HiX size={30}/> : <FaBars size={30}/>
+
                 }
             </div>
         </nav>
