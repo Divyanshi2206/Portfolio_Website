@@ -6,7 +6,7 @@ import { Animate } from 'react-simple-animate';
 import resume from '../../assets/Divyanshi_resume.pdf'
 import {FaJsSquare, FaHtml5, FaReact, FaCss3 } from 'react-icons/fa';
 
-const JobSummary='Hello there! I\'m Divyanshi Agarwal, a passionate and creative frontend developer. With a keen eye for design and a knack for turning ideas into beautiful, interactive web experiences, I specialize in crafting user-friendly and visually appealing websites.With a passion for both code and design, I bring a unique blend of creativity and technical expertise to every project. I thrive in collaborative environments and am dedicated to delivering solutions that exceed expectations. I\'m not just a developer; I\'m a problem solver and a creative thinker who\'s always eager to take on new challenges.'
+const JobSummary='Hello there! I\'m Divyanshi Agarwal, a passionate and creative Full Stack Developer. With a keen eye for design and a knack for turning ideas into beautiful, interactive web experiences, I specialize in crafting user-friendly and visually appealing websites.With a passion for both code and design, I bring a unique blend of creativity and technical expertise to every project. I thrive in collaborative environments and am dedicated to delivering solutions that exceed expectations. I\'m not just a developer; I\'m a problem solver and a creative thinker who\'s always eager to take on new challenges.'
 
 const About = () => {
     return (
@@ -25,7 +25,7 @@ const About = () => {
           end={{
             transform:'translateX(0px)'
           }} >
-        <h3>Front End Developer</h3>
+        <h3>Full Stack Developer</h3>
         <p>{JobSummary}</p>
         </Animate>
 
